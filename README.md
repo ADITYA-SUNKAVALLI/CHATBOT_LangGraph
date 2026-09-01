@@ -8,6 +8,10 @@ A multi-thread chatbot built with **LangGraph**, **Streamlit**, and **LangChain*
 - 🧮 Basic arithmetic (calculator tool)
 - 💬 Multiple independent chat threads, each with its own auto-generated title and its own attached PDF, persisted across restarts via a SQLite checkpointer
 
+## Deployment
+
+Deployment : https://chatbot-langgraph-zuz6.onrender.com
+
 ## Project Structure
 
 ```
@@ -82,10 +86,3 @@ llm = ChatOpenRouter(model="openrouter/free")
 ```
 Free-tier OpenRouter models rotate and some don't reliably support tool calling — if you notice tool calls (`rag_tool`, `calculator`, etc.) not firing, swap in a model confirmed to support tools (e.g. `qwen/qwen3-coder:free`) and re-test.
 
-## Deployment
-
-Deployment instructions (e.g. Render) will be added here separately.
-
-## License
-
-Add your preferred license here.
