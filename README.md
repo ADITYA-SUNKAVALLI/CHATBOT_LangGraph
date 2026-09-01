@@ -15,7 +15,7 @@ Deployment : https://chatbot-langgraph-zuz6.onrender.com
 ## Project Structure
 
 ```
-.
+CHATBOT
 ├── chatbot.py            # Streamlit frontend (chat UI, sidebar, PDF upload)
 ├── chatbot_backend.py     # LangGraph graph, LLM setup, PDF ingestion, thread helpers
 ├── chatbot_tools.py       # Tool definitions: rag_tool, search_tool, calculator, get_stock_price
