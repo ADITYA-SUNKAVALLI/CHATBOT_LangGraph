@@ -31,8 +31,9 @@ A multi-thread chatbot built with **LangGraph**, **Streamlit**, and **LangChain*
 
 1. **Clone the repo**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/ADITYA-SUNKAVALLI/CHATBOT_LangGraph
+   cd CHATBOT_LangGraph
+
    ```
 
 2. **Create and activate a virtual environment**
